@@ -1,0 +1,26 @@
+Traveling agency:
+----------------
+Agency :
+-------
+->Booking details
+->Add Trips
+->login
+->Customer details
+
+
+User:
+--------
+->Trips
+->Previous Trips 
+->login 
+->registrations
+->help 
+
+
+module requirements :
+----------------------
+bootstrap 
+axios
+react-router-dom
+react-redux
+redux
