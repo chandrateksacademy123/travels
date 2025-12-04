@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import axios from 'axios'
 const Login = () => {
   const dispatch= useDispatch()
@@ -72,8 +73,8 @@ const Login = () => {
             
            <div className='text-center'> <button type="submit" class="btn btn-primary">Submit</button>
            </div>
-           <center><p>If You Don't Have An Account Register <a  href='/Reg'>Here</a></p></center>
-           <center><a  href='/admin'>Go to Admin Login</a></center>
+           <center><p>If You Don't Have An Account Register <Link  to={'/Reg'}>Here</Link></p></center>
+           <center><Link  to={'/admin'}>Go to Admin Login</Link></center>
             </form>
     </div>
       
